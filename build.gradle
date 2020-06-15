@@ -1,0 +1,43 @@
+apply plugin: 'java'
+
+repositories {
+  mavenCentral()
+}
+repositories {
+  jcenter()
+  maven { url "https://jitpack.io" }
+}
+
+dependencies {
+  compile 'io.rest-assured:rest-assured:3.0.0'
+  compile 'io.rest-assured:json-schema-validator:3.0.0'
+  compile("org.assertj:assertj-core:3.10.0")
+  testCompile("org.uncommons:reportng:1.1.2") {
+    exclude group: 'org.testng', module: 'testng'
+  }
+  compile "org.codehaus.groovy:groovy-all:2.4.9"
+  compile 'io.rest-assured:json-path:3.2.0'
+  compile group: 'org.testng', name: 'testng', version: '6.14.3'
+  compile 'com.google.code.gson:gson:2.8.0'
+  compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.13'
+  compile group: 'org.json', name: 'json', version: '20090211'
+  compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+  compile group: 'commons-io', name: 'commons-io', version: '2.5'
+  compile group: 'commons-beanutils', name: 'commons-beanutils', version: '1.8.3'
+  compile group: 'au.com.bytecode', name: 'opencsv', version: '2.4'
+  compile group: 'com.google.inject', name: 'guice', version: '4.0'
+  compile group: 'com.github.everit-org.json-schema', name: 'org.everit.json.schema', version: '1.10.0'
+  compile "com.aventstack:extentreports:4.0.9"
+  compile group: 'com.google.api-client', name: 'google-api-client', version:'1.28.0'
+  compile group: 'com.codepine.api', name: 'testrail-api-java-client', version:'2.0.1'
+  compile group: 'com.googlecode.json-simple', name: 'json-simple', version:'1.1.1'
+  compile group: 'com.jayway.jsonpath', name: 'json-path', version: '1.2.0'
+  compile group: 'com.jcraft', name: 'jsch', version: '0.1.54'
+  compile group: 'org.mongodb', name: 'mongo-java-driver', version: '3.9.1'
+  compile 'javax.mail:mail:1.4.7'
+  compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.0.1'
+  compile group: 'org.apache.poi', name: 'poi', version: '4.0.1'
+  compile group: 'com.ullink.slack', name: 'simpleslackapi', version: '1.2.0'
+  compile group: 'postgresql', name: 'postgresql', version: '9.1-901-1.jdbc4'
+  compile group: 'org.jodd', name: 'jodd', version: '3.2.6'
+}
