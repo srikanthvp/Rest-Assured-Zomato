@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Zomato-Api-Test-Suite" >
+  <test name="Zomato-Api-Sanity-Suite" preserve-order="true">
+    <parameter name = "projectName" value="Vacation"/>
+    <classes>
+      <class name="org.zomato.zomatoRestaurantInfo.testRestaurantInfo.zomatoCommonTest.CategoriesTest"/>
+    </classes>
+  </test>
+</suite>
