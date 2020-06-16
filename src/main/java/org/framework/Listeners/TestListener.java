@@ -1,5 +1,6 @@
 package org.framework.Listeners;
 
+import org.framework.Reporting.ExtentManager;
 import org.framework.Reporting.ExtentTestManager;
 import org.framework.Reporting.Logger;
 import org.testng.ITestContext;
@@ -13,7 +14,8 @@ public class TestListener implements ITestListener {
 
     @Override
     public synchronized void onTestStart(ITestResult result) {
-        ExtentTestManager.startTest(result.getName());
+        ExtentTestManager.startTest(result.getName(), result.getMethod().getDescription())
+                .assignAuthor("Srikanth");
         logger.log("<b> ----- Starting test execution of : " + result.getTestClass().getName() + "."+ result.getName() + " ----- </b>");
     }
 
@@ -50,6 +52,6 @@ public class TestListener implements ITestListener {
 
     @Override
     public synchronized void onFinish(ITestContext context) {
-
+        ExtentManager.getInstance().flush();
     }
 }

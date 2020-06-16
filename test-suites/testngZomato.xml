@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Zomato-Api-Test-Suite" >
-  <test name="Zomato-Api-Sanity-Suite" preserve-order="true">
-    <parameter name = "projectName" value="Vacation"/>
+
+  <listeners>
+    <listener class-name="org.framework.Listeners.TestListener"></listener>
+  </listeners>
+
+  <test name="Zomato-Api-Regression-Suite" preserve-order="true">
+    <parameter name = "projectName" value="Zomato"/>
     <classes>
       <class name="org.zomato.zomatoRestaurantInfo.testRestaurantInfo.zomatoCommonTest.CategoriesTest"/>
+      <class name="org.zomato.zomatoRestaurantInfo.testRestaurantInfo.zomatoCommonTest.CitiesTest"/>
+      <class name="org.zomato.zomatoRestaurantInfo.testRestaurantInfo.zomatoLocationTest.LocationDetailsTest"/>
+      <class name="org.zomato.zomatoRestaurantInfo.testRestaurantInfo.zomatoLocationTest.LocationsTest"/>
+      <class name="org.zomato.zomatoRestaurantInfo.testRestaurantInfo.zomatoRestaurantTest.RestaurantTest"/>
     </classes>
   </test>
 </suite>

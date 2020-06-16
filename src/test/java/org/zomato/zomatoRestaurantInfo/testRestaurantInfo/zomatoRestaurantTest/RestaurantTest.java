@@ -4,22 +4,37 @@ import io.restassured.response.ValidatableResponse;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.zomato.commonUtils.BaseClass;
-import org.zomato.zomatoRestaurantInfo.common.RestaurantUtil;
-import org.zomato.zomatoRestaurantInfo.helper.zomatoCommon.categoriesHelper.CategoriesConstants;
-import org.zomato.zomatoRestaurantInfo.helper.zomatoCommon.categoriesHelper.CategoriesHelper;
+import org.zomato.commonUtils.CSVParametersProvider;
+import org.zomato.commonUtils.DataFileParameters;
+import org.zomato.zomatoRestaurantInfo.helper.zomatoRestaurant.restaurantHelper.RestaurantConstants;
+import org.zomato.zomatoRestaurantInfo.helper.zomatoRestaurant.restaurantHelper.RestaurantHelper;
 
-import java.io.FileNotFoundException;
+import java.util.HashMap;
 
 public class RestaurantTest extends BaseClass {
     private static ValidatableResponse response;
-    RestaurantUtil restaurantUtil = new RestaurantUtil();
-    String collectionId, collectionName;
-    CategoriesHelper categoriesHelper = new CategoriesHelper();
+    RestaurantHelper restaurantHelper = new RestaurantHelper();
 
-    @Test(description = "Create Search Based Collection of Landmark Category")
-    public void createLandmarkSearchCollectionTest() throws FileNotFoundException {
+    @Test(alwaysRun = true,
+            description = "This test returns details of restaurants, if restaurantID is passed as query param",
+            groups = "Regression",
+            priority = 1,
+            dataProvider = "csv",
+            dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "restaurants.csv", path = "/resources/input-data/Zomato/")
+    public void getRestaurantDetailsTest(String restId) {
+        HashMap<String, String> map = new HashMap<>();
+        map.put("res_id", restId);
 
-        response = categoriesHelper.getCategories(CategoriesConstants.URI_GET_CATEGORY);
+        String expectedName = "Ninth Street Espresso";
+
+        response = restaurantHelper.getRestaurantDetails(RestaurantConstants.URI_GET_RESTAURANT, map);
         Assert.assertEquals(response.extract().statusCode(), 200);
+
+        responseJson = response.extract().jsonPath();
+        int actualRestId = responseJson.get("R.res_id");
+        softAssert.assertEquals(actualRestId, Integer.parseInt(restId));
+        softAssert.assertEquals(responseJson.get("name"), expectedName);
+        softAssert.assertAll();
     }
 }

@@ -5,40 +5,13 @@ package org.zomato.commonUtils;
  */
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.fge.jsonschema.SchemaVersion;
-import com.github.fge.jsonschema.cfg.ValidationConfiguration;
-import com.github.fge.jsonschema.main.JsonSchemaFactory;
-import com.google.gson.JsonArray;
-import com.jayway.jsonpath.ReadContext;
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.ValidatableResponse;
-import org.everit.json.schema.Schema;
-import org.everit.json.schema.loader.SchemaLoader;
-import org.json.JSONObject;
-import org.testng.Reporter;
 
-import java.io.FileInputStream;
-import java.io.InputStream;
-import java.lang.reflect.Method;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import static org.assertj.core.api.Assertions.assertThat;
 
 
 public class Utils extends BaseClass {
 
-    static String regex = "[0-9]";
-    static Date datetoday = new Date();
-    static SimpleDateFormat dateformat = new SimpleDateFormat("dd/MM/yyyy");
-    static SchemaLoader schemaLoader;
     static JsonNode rs;
     private static Utils instance = new Utils();
     private String sheetName;

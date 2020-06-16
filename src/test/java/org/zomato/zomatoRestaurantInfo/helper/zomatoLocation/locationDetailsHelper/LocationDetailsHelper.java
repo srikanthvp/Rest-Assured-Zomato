@@ -8,15 +8,9 @@ import java.util.HashMap;
 
 public class LocationDetailsHelper extends BaseClass {
 
-    public ValidatableResponse getCategories(String uri) {
-        HashMap<String, String> queryParam = new HashMap<>();
-        response = restaurantRequestBuilder.sendGetRequest(uri, getQueryParam());
+    public ValidatableResponse getLocationDetails(String uri, HashMap<String, String> queryParam) {
+        response = restaurantRequestBuilder.sendGetRequest(uri, queryParam);
         logger.logResponse(response.extract().body().jsonPath());
         return response;
-    }
-
-    public HashMap<String, String> getQueryParam(){
-        HashMap<String, String> map = new HashMap<>();
-        return map;
     }
 }

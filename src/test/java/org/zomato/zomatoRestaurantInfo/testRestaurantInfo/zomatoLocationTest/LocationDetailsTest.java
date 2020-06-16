@@ -4,22 +4,49 @@ import io.restassured.response.ValidatableResponse;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.zomato.commonUtils.BaseClass;
-import org.zomato.zomatoRestaurantInfo.common.RestaurantUtil;
-import org.zomato.zomatoRestaurantInfo.helper.zomatoCommon.categoriesHelper.CategoriesConstants;
-import org.zomato.zomatoRestaurantInfo.helper.zomatoCommon.categoriesHelper.CategoriesHelper;
+import org.zomato.commonUtils.CSVParametersProvider;
+import org.zomato.commonUtils.DataFileParameters;
+import org.zomato.zomatoRestaurantInfo.helper.zomatoLocation.locationDetailsHelper.LocationDetailsConstants;
+import org.zomato.zomatoRestaurantInfo.helper.zomatoLocation.locationDetailsHelper.LocationDetailsHelper;
 
 import java.io.FileNotFoundException;
+import java.util.HashMap;
 
 public class LocationDetailsTest extends BaseClass {
     private static ValidatableResponse response;
-    RestaurantUtil restaurantUtil = new RestaurantUtil();
-    String collectionId, collectionName;
-    CategoriesHelper categoriesHelper = new CategoriesHelper();
+    LocationDetailsHelper locationDetailsHelper = new LocationDetailsHelper();
 
-    @Test(description = "Create Search Based Collection of Landmark Category")
-    public void createLandmarkSearchCollectionTest() throws FileNotFoundException {
+    @Test(alwaysRun = true,
+            description = "This test returns details of a Location passed as query param",
+            groups = "Regression",
+            priority = 1,
+            dataProvider = "csv",
+            dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "locationDetails.csv", path = "/resources/input-data/Zomato/")
+    public void getLocationDetailsTest(String entId, String entType) throws FileNotFoundException {
+        HashMap<String, String> map = new HashMap<>();
+        map.put("entity_id", entId);
+        map.put("entity_type", entType);
 
-        response = categoriesHelper.getCategories(CategoriesConstants.URI_GET_CATEGORY);
+        int expectedEntId = 36932;
+        int expectedCityId = 280;
+        int expectedCountryId = 216;
+
+        response = locationDetailsHelper.getLocationDetails(LocationDetailsConstants.URI_GET_LOCATIONDETAILS,
+                map);
         Assert.assertEquals(response.extract().statusCode(), 200);
+
+        responseJson = response.extract().jsonPath();
+        softAssert.assertEquals(responseJson.get("location.entity_type"), "group");
+        int actualEntity = responseJson.get("location.entity_id");
+        softAssert.assertEquals(actualEntity, expectedEntId);
+        softAssert.assertEquals(responseJson.get("location.title"), "Chelsea Market, Chelsea, New York City");
+        int actualCityId = responseJson.get("location.city_id");
+        softAssert.assertEquals(actualCityId, expectedCityId);
+        softAssert.assertEquals(responseJson.get("location.city_name"), "New York City");
+        int actualCountryId = responseJson.get("location.country_id");
+        softAssert.assertEquals(actualCountryId, expectedCountryId);
+        softAssert.assertEquals(responseJson.get("location.country_name"), "United States");
+        softAssert.assertAll();
     }
 }

@@ -42,6 +42,23 @@ public class RequestBuilder {
                 .build();
     }
 
+    public ValidatableResponse sendGetRequest(String pathURI) {
+        ValidatableResponse response = null;
+        logger.log("BaseURl -----> " + baseUrl);
+        logger.log("Final URl -----> " + baseUrl + pathURI);
+        try {
+            response = given()
+                    .spec(request)
+                    .get(pathURI)
+                    .then().log().all();
+            Reporter.log("Response ------>" + response.extract().body().asString(), true);
+            assertThat(response.statusCode(200));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return response;
+    }
+
     public ValidatableResponse sendGetRequest(String pathURI, HashMap<String, String> queryParams) {
         ValidatableResponse response = null;
         logger.log("BaseURl -----> " + baseUrl);
