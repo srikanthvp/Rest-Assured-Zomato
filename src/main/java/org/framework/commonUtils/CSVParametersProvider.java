@@ -1,14 +1,9 @@
 package org.framework.commonUtils;
 
-/**
- * // TODO Comment
- */
-
 import au.com.bytecode.opencsv.CSVReader;
 import org.testng.ITestContext;
 import org.testng.Reporter;
 import org.testng.annotations.DataProvider;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.lang.reflect.Method;
@@ -16,9 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-
 public class CSVParametersProvider {
-
   private static Scanner scanner = null;
   private static List<String[]> testData ;
   private static String[] data = null;
@@ -76,5 +69,4 @@ public class CSVParametersProvider {
     testData.toArray(testDataArray);
     return testDataArray;
   }
-
 }

@@ -4,7 +4,7 @@ import com.jayway.jsonpath.ReadContext;
 import io.restassured.response.ValidatableResponse;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.zomato.commonUtils.BaseClass;
+import org.zomato.BasePackage.BaseClass;
 import org.zomato.zomatoRestaurantInfo.helper.zomatoCommon.categoriesHelper.CategoriesConstants;
 import org.zomato.zomatoRestaurantInfo.helper.zomatoCommon.categoriesHelper.CategoriesHelper;
 

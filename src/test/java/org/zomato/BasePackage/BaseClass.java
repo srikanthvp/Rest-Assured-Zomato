@@ -1,8 +1,9 @@
-package org.zomato.commonUtils;
+package org.zomato.BasePackage;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.ValidatableResponse;
 import org.framework.Reporting.Logger;
+import org.framework.commonUtils.JSONFileReader;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
 import org.testng.asserts.SoftAssert;

@@ -6,16 +6,10 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.framework.Reporting.Logger;
 import org.testng.Reporter;
-
 import java.util.HashMap;
-
 import static io.restassured.RestAssured.given;
 import static org.assertj.core.api.Assertions.assertThat;
 
-
-/**
- * // TODO Comment
- */
 public class RequestBuilder {
 
     public RequestSpecification request;

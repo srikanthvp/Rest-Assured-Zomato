@@ -2,7 +2,7 @@ package org.zomato.zomatoRestaurantInfo.helper.zomatoRestaurant.restaurantHelper
 
 
 import io.restassured.response.ValidatableResponse;
-import org.zomato.commonUtils.BaseClass;
+import org.zomato.BasePackage.BaseClass;
 
 import java.util.HashMap;
 

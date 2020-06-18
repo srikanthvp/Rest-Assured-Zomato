@@ -1,11 +1,11 @@
 package org.zomato.zomatoRestaurantInfo.testRestaurantInfo.zomatoRestaurantTest;
 
 import io.restassured.response.ValidatableResponse;
+import org.framework.commonUtils.CSVParametersProvider;
+import org.framework.commonUtils.DataFileParameters;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.zomato.commonUtils.BaseClass;
-import org.zomato.commonUtils.CSVParametersProvider;
-import org.zomato.commonUtils.DataFileParameters;
+import org.zomato.BasePackage.BaseClass;
 import org.zomato.zomatoRestaurantInfo.helper.zomatoRestaurant.restaurantHelper.RestaurantConstants;
 import org.zomato.zomatoRestaurantInfo.helper.zomatoRestaurant.restaurantHelper.RestaurantHelper;
 

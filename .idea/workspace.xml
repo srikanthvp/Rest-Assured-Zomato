@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a597777-5f1d-43f9-8af4-fe2550e2b9fe" name="Default Changelist" comment="Added Assertions&#10;Added Reporting&#10;Added positive test cases&#10;Added suite execution">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
@@ -28,70 +27,47 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/framework/commonUtils/CSVParametersProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/framework/commonUtils/CSVParametersProvider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/framework/commonUtils/RequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/framework/commonUtils/RequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/framework/commonUtils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/framework/commonUtils/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/framework/core/ApiClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/framework/core/ApiClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/framework/core/ApiRequest$RequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/framework/core/ApiRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/framework/core/HttpMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/commonUtils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/commonUtils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/commonUtils/BaseClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/commonUtils/CSVParametersProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/commonUtils/DataFileParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/commonUtils/JSONFileReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/commonUtils/PropertyReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/commonUtils/RequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/commonUtils/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/common/RestaurantUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/common/RestaurantUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoCommon/categoriesHelper/CategoriesHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoCommon/categoriesHelper/CategoriesHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoCommon/citiesHelper/CitiesConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoCommon/citiesHelper/CitiesConstants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoCommon/citiesHelper/CitiesHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoCommon/citiesHelper/CitiesHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationDetailsHelper/LocationDetailsConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationDetailsHelper/LocationDetailsConstants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationDetailsHelper/LocationDetailsHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationDetailsHelper/LocationDetailsHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationsHelper/LocationsConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationsHelper/LocationsConstants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationsHelper/LocationsHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationsHelper/LocationsHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoRestaurant/dailyMenuHelper/DailyMenuConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoRestaurant/dailyMenuHelper/DailyMenuHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoRestaurant/restaurantHelper/RestaurantConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoRestaurant/restaurantHelper/RestaurantConstants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoRestaurant/restaurantHelper/RestaurantHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/helper/zomatoRestaurant/restaurantHelper/RestaurantHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoCommonTest/CategoriesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoCommonTest/CategoriesTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoCommonTest/CitiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoCommonTest/CitiesTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoLocationTest/LocationDetailsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoLocationTest/LocationDetailsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoLocationTest/LocationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoRestaurantTest/DailyMenuTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoLocationTest/LocationsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoLocationTest/LocationsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoRestaurantTest/RestaurantTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoRestaurantTest/RestaurantTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/input-data/Zomato/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/input-data/Zomato/categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/input-data/Zomato/cities.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/input-data/Zomato/cities.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/input-data/Zomato/collections.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/input-data/Zomato/locationDetails.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/input-data/Zomato/cuisines.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/input-data/Zomato/locations.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/Listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/Listeners/TestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/commonUtils/CSVParametersProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/commonUtils/CSVParametersProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/commonUtils/DataFileParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/commonUtils/DataFileParameters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/commonUtils/RequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/commonUtils/RequestBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/commonUtils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/framework/commonUtils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/core/ApiClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/core/ApiRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/framework/core/HttpMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/commonUtils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/commonUtils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/commonUtils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/BasePackage/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/commonUtils/CSVParametersProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/commonUtils/DataFileParameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/commonUtils/JSONFileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/commonUtils/PropertyReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/commonUtils/RequestBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/commonUtils/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/common/RestaurantUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/common/RestaurantUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoCommon/categoriesHelper/CategoriesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoCommon/categoriesHelper/CategoriesHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoCommon/citiesHelper/CitiesConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoCommon/citiesHelper/CitiesConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoCommon/citiesHelper/CitiesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoCommon/citiesHelper/CitiesHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationDetailsHelper/LocationDetailsConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationDetailsHelper/LocationDetailsConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationDetailsHelper/LocationDetailsHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationDetailsHelper/LocationDetailsHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationsHelper/LocationsConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationsHelper/LocationsConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationsHelper/LocationsHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoLocation/locationsHelper/LocationsHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoRestaurant/dailyMenuHelper/DailyMenuConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoRestaurant/dailyMenuHelper/DailyMenuHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoRestaurant/restaurantHelper/RestaurantConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoRestaurant/restaurantHelper/RestaurantConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoRestaurant/restaurantHelper/RestaurantHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/helper/zomatoRestaurant/restaurantHelper/RestaurantHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoCommonTest/CategoriesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoCommonTest/CategoriesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoCommonTest/CitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoCommonTest/CitiesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoLocationTest/LocationDetailsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoLocationTest/LocationDetailsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoLocationTest/LocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoLocationTest/LocationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoRestaurantTest/DailyMenuTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoLocationTest/LocationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoLocationTest/LocationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoRestaurantTest/RestaurantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zomato/zomatoRestaurantInfo/testRestaurantInfo/zomatoRestaurantTest/RestaurantTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-suites/testngZomato.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-suites/testngZomato.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,12 +138,13 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/input-data/Zomato" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
@@ -400,10 +377,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="220" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1592080999540" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591914702049">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592512686205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1591914702049" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1592512686205" />
     <state width="460" height="324" key="DebuggerActiveHint" timestamp="1592248075860">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -413,25 +390,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="584" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591961614662" />
-    <state width="1367" height="170" key="GridCell.Tab.0.bottom" timestamp="1592269970387">
+    <state width="1367" height="170" key="GridCell.Tab.0.bottom" timestamp="1592514137601">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="170" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592269970387" />
+    <state width="1367" height="170" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592514137601" />
     <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590562056353" />
-    <state width="1367" height="170" key="GridCell.Tab.0.center" timestamp="1592269970387">
+    <state width="1367" height="170" key="GridCell.Tab.0.center" timestamp="1592514137601">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="170" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592269970387" />
+    <state width="1367" height="170" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592514137601" />
     <state width="1638" height="253" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590562056352" />
-    <state width="1367" height="170" key="GridCell.Tab.0.left" timestamp="1592269970387">
+    <state width="1367" height="170" key="GridCell.Tab.0.left" timestamp="1592514137601">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="170" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592269970387" />
+    <state width="1367" height="170" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592514137601" />
     <state width="1638" height="253" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590562056352" />
-    <state width="1367" height="170" key="GridCell.Tab.0.right" timestamp="1592269970387">
+    <state width="1367" height="170" key="GridCell.Tab.0.right" timestamp="1592514137601">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="170" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592269970387" />
+    <state width="1367" height="170" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592514137601" />
     <state width="1638" height="253" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590562056353" />
     <state width="1367" height="232" key="GridCell.Tab.1.bottom" timestamp="1592263734109">
       <screen x="0" y="0" width="1366" height="728" />
@@ -453,15 +430,19 @@
     </state>
     <state width="1367" height="232" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592263734109" />
     <state width="1638" height="362" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1587587248976" />
-    <state x="284" y="0" key="SettingsEditor" timestamp="1591961622137">
+    <state x="284" y="0" key="SettingsEditor" timestamp="1592514210798">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="284" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591961622137" />
+    <state x="284" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592514210798" />
     <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1587756606219" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1592093815099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1592093815099" />
+    <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1592513040960">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1592513040960" />
     <state x="409" y="0" width="757" height="728" key="find.popup" timestamp="1592263137302">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

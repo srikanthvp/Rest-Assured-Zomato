@@ -2,7 +2,7 @@ package org.zomato.zomatoRestaurantInfo.helper.zomatoCommon.categoriesHelper;
 
 
 import io.restassured.response.ValidatableResponse;
-import org.zomato.commonUtils.BaseClass;
+import org.zomato.BasePackage.BaseClass;
 
 public class CategoriesHelper extends BaseClass {
 

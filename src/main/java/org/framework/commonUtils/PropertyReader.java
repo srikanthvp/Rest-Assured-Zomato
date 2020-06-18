@@ -5,9 +5,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-/**
- * // TODO Comment
- */
 public class PropertyReader {
 
   public Properties prop;
